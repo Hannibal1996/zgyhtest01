@@ -1,0 +1,33 @@
+
+**** Error file opened at 20200826 150955 China Standard Time Rel. 3.0.17 (2017-07-17) [721.913]
+Error:  >Wed Aug 26 15:09:55,709<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS_WITH_POOL ASHOST=192.168.10.81 SYSNR=00 SAPROUTER=123456 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname '123456/H/192.168.10.81' unknown
+TIME        Wed Aug 26 15:09:55 2020
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: '123456/H/192.168.10.81' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20200827 171748 China Standard Time Rel. 3.0.17 (2017-07-17) [721.913]
+Error:  >Thu Aug 27 17:17:48,433<    >RfcGetException rc (7) message: ##.#####,####
+<RfcGetException
+
+
+Error:  >Thu Aug 27 17:17:48,496<    >RfcGetException rc (7) message: ##.#####,####
+<RfcGetException
+
+
